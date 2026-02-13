@@ -154,9 +154,6 @@ def main():
     model_save_dir = "best_models/taowu"
     os.makedirs(model_save_dir, exist_ok=True)
 
-    # ===============================
-    # 结果保存路径
-    # ===============================
     result_log = os.path.join(model_save_dir, "taowu.txt")
 
     with open(result_log, "w") as f:
