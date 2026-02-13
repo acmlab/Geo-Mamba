@@ -1,7 +1,7 @@
 import torch
 from spdnet.utils import *
 from spdnet import StiefelParameter, SPDParameter
-from spd.parallel_transport import expm
+from spd.function import expm
 
 class StiefelMetaOptimizer(object):
     def __init__(self, optimizer):
